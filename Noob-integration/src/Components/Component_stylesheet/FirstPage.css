@@ -50,7 +50,7 @@ a{
     color: #000;
 }
 .logo img{
-    width: 4vw;
+    width: 60px;
     animation: head-appear 3s ease;
 }
 .navLinks{
@@ -80,13 +80,13 @@ a{
 .HeadText{
     color: white;
     animation: head-appear 5s ease;
-    font-size: 5rem;
+    font-size: 5vw;
 
 }
 .HeadText1{
     color: #89b222;
     animation: head-appear 5s ease;
-    font-size: 5rem;
+    font-size: 5vw;
 
 }
 @keyframes head-appear {
@@ -97,4 +97,55 @@ a{
         opacity: 1;
     }
 
+}
+#menu{
+    display: none;
+}
+@media (max-width: 800px){
+    .HeadText{
+
+        font-size: 50px;
+
+    }
+    .HeadText1{
+
+        font-size: 50px;
+
+    }
+
+    #menu{
+        display: block;
+        font-size: 40px;
+    }
+    .navLinks{
+        display: none;
+    }
+    .navLinks.show{
+        display: flex;
+        top: 10%;
+        right: 0;
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        flex-direction: column;
+        background: rgba(14, 14, 14, 0.11);
+        align-items: flex-start;
+        border-radius: 10px;
+        padding: 4%;
+        margin: 4%;
+    }
+    nav{
+        justify-content: space-between;
+        padding-right: 10%;
+        align-items: center;
+    }
+
+}
+@keyframes show {
+    0%{
+        right: -10%;
+    }
+    100%{
+        right: 0;
+    }
 }
