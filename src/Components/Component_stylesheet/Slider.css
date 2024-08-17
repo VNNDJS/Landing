@@ -1,0 +1,49 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background:transparent; /* Assurez-vous de mettre le bon chemin */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 250px;
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
+    user-select: none;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}

@@ -1,0 +1,74 @@
+#ParkSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.Pktextsect{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.PkimgSect{
+    width: 40%;
+    background-image: url("src/assets/assets-fire/maki2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Pkheader{
+    color: #133713;
+    font-size: 4vw;
+}
+.txt{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Pksmalltext{
+    padding-top: 10%;
+}
+.ListButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    width: 30%;
+    border:none;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    transition: .9s ease;
+}
+.ListButton:hover {
+    transition: .9s ease;
+    transform: scale(1.05);
+    background: darkslategrey;
+    color: black;
+}
+#ParkList{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("src/assets/assets-fire/Tsingy.jpg") no-repeat center white ;
+    background-size: cover;
+}
+
+.lstPrk{
+    width: 50%;
+    height: 55vh;
+}
+.slider{
+    width: 100%;
+}
+#lstPrktxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-left:5% ;
+}
