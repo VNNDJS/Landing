@@ -38,10 +38,16 @@ header::before {
 }
 nav{
     position: sticky;
+    top: 0;
     width: 100%;
     height: 15vh;
     display: flex;
     background: cadetblue;
+    z-index: 1000;
+}
+.border{
+    border: 1px solid white !important;
+    border-radius: 10px;
 }
 .logo{
     width: 20%;
@@ -156,4 +162,29 @@ a{
     100%{
         right: 0;
     }
+}
+#intelli{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #000;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20%;
+}
+.leftside *{
+    padding-bottom: 10%;
+}
+.illistration{
+    width: 50%;
+    border-radius: 50%;
+}
+.headAI{
+    font-size: 2.5rem ;
+    color: white;
 }

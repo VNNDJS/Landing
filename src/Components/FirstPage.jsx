@@ -18,7 +18,7 @@ function FirstPage() {
                     <div className={`navLinks ${isNavVisible ? 'show' : ''}`}>
                         <a href="#ParkSection" className="links"> Park list </a>
                         <a href="#events" className="links"> Events </a>
-                        <a href="#AI" className="links"> AI </a>
+                        <a href="#intelli" className="links"> AI </a>
                         <a href="#" className="links"> Biodiversity Stats </a>
                     </div>
                 </nav>
@@ -81,18 +81,12 @@ function FirstPage() {
                 </div>
                 <div className="eventsImg"></div>
             </section>
-            <section id="AI">
-                <div className="Aitxt">
-                    <div className="h1">
-                        <h1 className="BigText">Use our AI for all your ecology questions</h1>
-                    </div>
-                    <div className="smallText">
-                        <p>In the realm of green where questions bloom,
-                            Our AI stands ready, dispelling any gloom.
-                            For every query on nature's wondrous ways,
-                            Turn to our wisdom in these enlightened days.
-                            Let us guide you through the forests deep and wide,
-                            With answers clear, our ecological guide.</p>
+            <section id="intelli">
+                <div className="leftside">
+                    <div className="leftText">
+                        <h1 className="headAI">Use our AI for all your ecology questions</h1>
+                        <h1 className="headAI">And See Biodiversity stats</h1>
+                        <a href="#" className="ListButton border">Join now</a>
                     </div>
                 </div>
 
