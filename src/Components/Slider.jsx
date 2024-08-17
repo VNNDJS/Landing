@@ -4,7 +4,7 @@ import './Component_stylesheet/Slider.css';
 const Slider = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    const slides = ['Isalo', 'Ranomafana', 'Tsaiko', 'Tsaiko','Tsaiko']; // Vous pouvez remplacer les valeurs par celles que vous souhaitez
+    const slides = ['Isalo', 'Ranomafana', 'Andasibe-Mantadia', 'Tsingy de Bemaraha','Masoala','Montagne d\'Ambre']; // Vous pouvez remplacer les valeurs par celles que vous souhaitez
 
     const nextSlide = () => {
         setCurrentSlide((prevSlide) =>

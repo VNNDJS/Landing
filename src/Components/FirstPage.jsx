@@ -19,7 +19,7 @@ function FirstPage() {
                         <a href="#ParkSection" className="links"> Park list </a>
                         <a href="#events" className="links"> Events </a>
                         <a href="#intelli" className="links"> AI </a>
-                        <a href="#" className="links"> Biodiversity Stats </a>
+                        <a href="#intelli" className="links"> Biodiversity Stats </a>
                     </div>
                 </nav>
                 <div className="mainText">
